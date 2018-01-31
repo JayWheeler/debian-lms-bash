@@ -2,16 +2,16 @@
 # =========================================================================
 #
 #	Dockerfile
-#	  Dockerfile for docker-debian-lms-bash in 
+#	  Dockerfile for debian-lms-bash in 
 #		a Debian 9.3 docker container.
 #
 # =========================================================================
 #
 # @author Jay Wheeler.
-# @version 0.2.0
+# @version 0.1.2
 # @copyright © 2017, 2018. EarthWalk Software.
 # @license Licensed under the Academic Free License version 3.0
-# @package docker-alpine-lms-bash
+# @package debian-lms-bash
 # @subpackage Dockerfile
 #
 # =========================================================================
@@ -25,19 +25,6 @@
 #		http://opensource.org/licenses/academic.php
 #
 # =========================================================================
-# =========================================================================
-#
-#     docker run --name=debian-lms-bash \
-#                --rm \
-#                -it \
-#            debian-lms-bash /bin/bash
-#
-#     docker run --name=debian-lms-bash \
-#                --rm \
-#                -it \
-#                -v ${HOME}/LMS-Dev:/data \
-#            debian-lms-bash /usr/local/bin/lmsExport
-#
 # =========================================================================
 FROM earthwalksoftware/debian-base:latest
 
